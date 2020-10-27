@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace WebAPI.Migrations
 {
-    public partial class Initial : Migration
+    public partial class init : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -13,10 +13,10 @@ namespace WebAPI.Migrations
                 {
                     PMId = table.Column<int>(nullable: false)
                         .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
-                    CardOwnerName = table.Column<string>(nullable: false),
-                    CardNumber = table.Column<string>(nullable: false),
-                    ExpirationDate = table.Column<string>(nullable: false),
-                    CVV = table.Column<string>(nullable: false)
+                    CardOwnerName = table.Column<string>(type: "varchar(100)", nullable: false),
+                    CardNumber = table.Column<string>(type: "varchar(16)", nullable: false),
+                    ExpirationDate = table.Column<string>(type: "varchar(5)", nullable: false),
+                    CVV = table.Column<string>(type: "varchar(3)", nullable: false)
                 },
                 constraints: table =>
                 {

@@ -25,16 +25,20 @@ namespace WebAPI.Migrations
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
                     b.Property<string>("CVV")
-                        .IsRequired();
+                        .IsRequired()
+                        .HasColumnType("varchar(3)");
 
                     b.Property<string>("CardNumber")
-                        .IsRequired();
+                        .IsRequired()
+                        .HasColumnType("varchar(16)");
 
                     b.Property<string>("CardOwnerName")
-                        .IsRequired();
+                        .IsRequired()
+                        .HasColumnType("varchar(100)");
 
                     b.Property<string>("ExpirationDate")
-                        .IsRequired();
+                        .IsRequired()
+                        .HasColumnType("varchar(5)");
 
                     b.HasKey("PMId");
 
