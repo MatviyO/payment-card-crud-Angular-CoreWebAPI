@@ -1,0 +1,14 @@
+D:\github\payment-card-crud-Angular-CoreWebAPI\WebAPI\WebAPI\bin\Debug\netcoreapp2.2\appsettings.Development.json
+D:\github\payment-card-crud-Angular-CoreWebAPI\WebAPI\WebAPI\bin\Debug\netcoreapp2.2\appsettings.json
+D:\github\payment-card-crud-Angular-CoreWebAPI\WebAPI\WebAPI\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+D:\github\payment-card-crud-Angular-CoreWebAPI\WebAPI\WebAPI\bin\Debug\netcoreapp2.2\WebAPI.deps.json
+D:\github\payment-card-crud-Angular-CoreWebAPI\WebAPI\WebAPI\bin\Debug\netcoreapp2.2\WebAPI.runtimeconfig.json
+D:\github\payment-card-crud-Angular-CoreWebAPI\WebAPI\WebAPI\bin\Debug\netcoreapp2.2\WebAPI.runtimeconfig.dev.json
+D:\github\payment-card-crud-Angular-CoreWebAPI\WebAPI\WebAPI\bin\Debug\netcoreapp2.2\WebAPI.dll
+D:\github\payment-card-crud-Angular-CoreWebAPI\WebAPI\WebAPI\obj\Debug\netcoreapp2.2\WebAPI.csprojAssemblyReference.cache
+D:\github\payment-card-crud-Angular-CoreWebAPI\WebAPI\WebAPI\obj\Debug\netcoreapp2.2\WebAPI.AssemblyInfoInputs.cache
+D:\github\payment-card-crud-Angular-CoreWebAPI\WebAPI\WebAPI\obj\Debug\netcoreapp2.2\WebAPI.AssemblyInfo.cs
+D:\github\payment-card-crud-Angular-CoreWebAPI\WebAPI\WebAPI\obj\Debug\netcoreapp2.2\WebAPI.RazorAssemblyInfo.cache
+D:\github\payment-card-crud-Angular-CoreWebAPI\WebAPI\WebAPI\obj\Debug\netcoreapp2.2\WebAPI.RazorAssemblyInfo.cs
+D:\github\payment-card-crud-Angular-CoreWebAPI\WebAPI\WebAPI\obj\Debug\netcoreapp2.2\WebAPI.RazorTargetAssemblyInfo.cache
+D:\github\payment-card-crud-Angular-CoreWebAPI\WebAPI\WebAPI\obj\Debug\netcoreapp2.2\WebAPI.genruntimeconfig.cache
