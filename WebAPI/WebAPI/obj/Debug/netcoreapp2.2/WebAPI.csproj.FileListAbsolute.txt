@@ -13,6 +13,5 @@ D:\github\payment-card-crud-Angular-CoreWebAPI\WebAPI\WebAPI\obj\Debug\netcoreap
 D:\github\payment-card-crud-Angular-CoreWebAPI\WebAPI\WebAPI\obj\Debug\netcoreapp2.2\WebAPI.RazorTargetAssemblyInfo.cache
 D:\github\payment-card-crud-Angular-CoreWebAPI\WebAPI\WebAPI\obj\Debug\netcoreapp2.2\WebAPI.genruntimeconfig.cache
 D:\github\payment-card-crud-Angular-CoreWebAPI\WebAPI\WebAPI\bin\Debug\netcoreapp2.2\WebAPI.pdb
-D:\github\payment-card-crud-Angular-CoreWebAPI\WebAPI\WebAPI\obj\Debug\netcoreapp2.2\WebAPI.csproj.CoreCompileInputs.cache
 D:\github\payment-card-crud-Angular-CoreWebAPI\WebAPI\WebAPI\obj\Debug\netcoreapp2.2\WebAPI.dll
 D:\github\payment-card-crud-Angular-CoreWebAPI\WebAPI\WebAPI\obj\Debug\netcoreapp2.2\WebAPI.pdb
