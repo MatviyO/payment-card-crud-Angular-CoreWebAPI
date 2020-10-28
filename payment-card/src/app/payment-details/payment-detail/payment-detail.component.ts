@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import {PaymentDetailService} from '../../shared/payment-detail.service';
+import {PaymentDetail} from '../../shared/payment-detail.model';
+import {NgForm} from '@angular/forms';
 
 @Component({
   selector: 'app-payment-detail',
@@ -6,10 +9,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./payment-detail.component.css']
 })
 export class PaymentDetailComponent implements OnInit {
+  data: any;
 
-  constructor() { }
+  constructor(private service: PaymentDetailService) { }
 
   ngOnInit(): void {
+    this.data = this.service;
+  }
+  resetForm(form: NgForm): any {
+    form.reset();
   }
 
 }
