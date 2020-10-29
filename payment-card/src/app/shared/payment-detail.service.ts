@@ -13,6 +13,9 @@ export class PaymentDetailService {
 
   constructor(private http: HttpClient) { }
 
+  getListPaymentDetail(): Observable<any> {
+    return this.http.get(this.baseUrl + 'PaymentDetail');
+  }
   postPaymentDetail(formData: PaymentDetail): Observable<any> {
     return this.http.post(`${this.baseUrl}PaymentDetail`, formData);
   }
@@ -21,9 +24,5 @@ export class PaymentDetailService {
   }
   deletePaymentDetail(id: number): Observable<any> {
     return this.http.delete(`${this.baseUrl}PaymentDetail/${id}`);
-  }
-
-  getListPaymentDetail(): any {
-    return this.http.get(this.baseUrl + 'PaymentDetail');
   }
 }

@@ -23,16 +23,16 @@ export class PaymentDetailListComponent implements OnInit {
 
   populateForm(pd: PaymentDetail): any {
     this.service.formData = Object.assign({}, pd);
-    console.log(this.service.formData);
+    console.log(this.service.formData.pmID);
 
   }
 
-  onDelete(pd: PaymentDetail): void {
-    console.log(pd);
+  onDelete(id: number): void {
+    console.log(id);
     if (confirm('Are you sure to delete  this record? ')) {
-      console.log(pd.pmID);
-      this.service.deletePaymentDetail(pd.pmID).subscribe(
-        i => {
+      this.service.deletePaymentDetail(id).subscribe(
+        res => {
+          console.log('sdfjsdflsdjkfsd');
           this.service.getListPaymentDetail();
           this.toastr.warning('Deleted successfully', 'Payment Detail Register');
         },
